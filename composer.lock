@@ -4,145 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "970dd5778dce4a6897c85f08a455a81a",
+    "content-hash": "4afb3540c9721559e170cb419fd1d091",
     "packages": [
-        {
-            "name": "alperenersoy/filament-export",
-            "version": "dev-fix-there",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/lara-zeus/filament-export.git",
-                "reference": "c5160e0be8d72594b23fab8f8b12bc5c170be9d1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/lara-zeus/filament-export/zipball/c5160e0be8d72594b23fab8f8b12bc5c170be9d1",
-                "reference": "c5160e0be8d72594b23fab8f8b12bc5c170be9d1",
-                "shasum": ""
-            },
-            "require": {
-                "barryvdh/laravel-dompdf": "^2.0",
-                "filament/tables": "^3.0",
-                "php": "^8.0",
-                "spatie/simple-excel": ">=3.2.0"
-            },
-            "require-dev": {
-                "filament/filament": "^3.0",
-                "orchestra/testbench": "^8.5",
-                "pestphp/pest": "^2.1",
-                "pestphp/pest-plugin-livewire": "^2.1"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "AlperenErsoy\\FilamentExport\\FilamentExportServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "AlperenErsoy\\FilamentExport\\": "src/"
-                }
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "AlperenErsoy\\FilamentExport\\Tests\\": "tests/src/",
-                    "AlperenErsoy\\FilamentExport\\Tests\\Database\\Factories\\": "tests/database/factories/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "alperen ersoy",
-                    "email": "ersoyalperen@gmail.com"
-                }
-            ],
-            "description": "Customizable export and print functionality for Filament Admin Panel",
-            "support": {
-                "source": "https://github.com/lara-zeus/filament-export/tree/fix-there"
-            },
-            "time": "2023-09-07T13:56:20+00:00"
-        },
-        {
-            "name": "barryvdh/laravel-dompdf",
-            "version": "v2.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/barryvdh/laravel-dompdf.git",
-                "reference": "9843d2be423670fb434f4c978b3c0f4dd92c87a6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/barryvdh/laravel-dompdf/zipball/9843d2be423670fb434f4c978b3c0f4dd92c87a6",
-                "reference": "9843d2be423670fb434f4c978b3c0f4dd92c87a6",
-                "shasum": ""
-            },
-            "require": {
-                "dompdf/dompdf": "^2.0.1",
-                "illuminate/support": "^6|^7|^8|^9|^10",
-                "php": "^7.2 || ^8.0"
-            },
-            "require-dev": {
-                "nunomaduro/larastan": "^1|^2",
-                "orchestra/testbench": "^4|^5|^6|^7|^8",
-                "phpro/grumphp": "^1",
-                "squizlabs/php_codesniffer": "^3.5"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0-dev"
-                },
-                "laravel": {
-                    "providers": [
-                        "Barryvdh\\DomPDF\\ServiceProvider"
-                    ],
-                    "aliases": {
-                        "Pdf": "Barryvdh\\DomPDF\\Facade\\Pdf",
-                        "PDF": "Barryvdh\\DomPDF\\Facade\\Pdf"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Barryvdh\\DomPDF\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Barry vd. Heuvel",
-                    "email": "barryvdh@gmail.com"
-                }
-            ],
-            "description": "A DOMPDF Wrapper for Laravel",
-            "keywords": [
-                "dompdf",
-                "laravel",
-                "pdf"
-            ],
-            "support": {
-                "issues": "https://github.com/barryvdh/laravel-dompdf/issues",
-                "source": "https://github.com/barryvdh/laravel-dompdf/tree/v2.0.1"
-            },
-            "funding": [
-                {
-                    "url": "https://fruitcake.nl",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/barryvdh",
-                    "type": "github"
-                }
-            ],
-            "time": "2023-01-12T15:12:49+00:00"
-        },
         {
             "name": "blade-ui-kit/blade-heroicons",
             "version": "2.1.0",
@@ -343,76 +206,6 @@
                 }
             ],
             "time": "2023-01-15T23:15:59+00:00"
-        },
-        {
-            "name": "coolsam/modules",
-            "version": "v3.0.0-beta.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/savannabits/filament-modules.git",
-                "reference": "740b5f108ea50f4f6dbfae5ac1809a5afa973676"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/savannabits/filament-modules/zipball/740b5f108ea50f4f6dbfae5ac1809a5afa973676",
-                "reference": "740b5f108ea50f4f6dbfae5ac1809a5afa973676",
-                "shasum": ""
-            },
-            "require": {
-                "filament/filament": "^3.0.0-beta",
-                "illuminate/contracts": "^9.1|^10.0",
-                "nwidart/laravel-modules": "^10.0",
-                "php": "^8.1",
-                "spatie/laravel-package-tools": "^1.14.0"
-            },
-            "require-dev": {
-                "laravel/pint": "^1.0",
-                "nunomaduro/collision": "^7.9",
-                "orchestra/testbench": "^8.0",
-                "pestphp/pest": "^2.0",
-                "pestphp/pest-plugin-arch": "^2.0",
-                "pestphp/pest-plugin-laravel": "^2.0",
-                "spatie/laravel-ray": "^1.26"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Coolsam\\FilamentModules\\ModulesServiceProvider"
-                    ],
-                    "aliases": {
-                        "Modules": "Coolsam\\FilamentModules\\Facades\\Modules"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Coolsam\\FilamentModules\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Sam Maosa",
-                    "email": "smaosa@savannabits.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Support for nwidart/laravel-modules in filamentphp",
-            "homepage": "https://github.com/coolsam/modules",
-            "keywords": [
-                "coolsam",
-                "laravel",
-                "modules"
-            ],
-            "support": {
-                "issues": "https://github.com/savannabits/filament-modules/issues",
-                "source": "https://github.com/savannabits/filament-modules/tree/v3.0.0-beta.3"
-            },
-            "time": "2023-07-31T08:20:09+00:00"
         },
         {
             "name": "danharrin/date-format-converter",
@@ -1104,68 +897,6 @@
                 }
             ],
             "time": "2022-12-15T16:57:16+00:00"
-        },
-        {
-            "name": "dompdf/dompdf",
-            "version": "v2.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/dompdf/dompdf.git",
-                "reference": "e8d2d5e37e8b0b30f0732a011295ab80680d7e85"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/dompdf/dompdf/zipball/e8d2d5e37e8b0b30f0732a011295ab80680d7e85",
-                "reference": "e8d2d5e37e8b0b30f0732a011295ab80680d7e85",
-                "shasum": ""
-            },
-            "require": {
-                "ext-dom": "*",
-                "ext-mbstring": "*",
-                "masterminds/html5": "^2.0",
-                "phenx/php-font-lib": ">=0.5.4 <1.0.0",
-                "phenx/php-svg-lib": ">=0.3.3 <1.0.0",
-                "php": "^7.1 || ^8.0"
-            },
-            "require-dev": {
-                "ext-json": "*",
-                "ext-zip": "*",
-                "mockery/mockery": "^1.3",
-                "phpunit/phpunit": "^7.5 || ^8 || ^9",
-                "squizlabs/php_codesniffer": "^3.5"
-            },
-            "suggest": {
-                "ext-gd": "Needed to process images",
-                "ext-gmagick": "Improves image processing performance",
-                "ext-imagick": "Improves image processing performance",
-                "ext-zlib": "Needed for pdf stream compression"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Dompdf\\": "src/"
-                },
-                "classmap": [
-                    "lib/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-2.1"
-            ],
-            "authors": [
-                {
-                    "name": "The Dompdf Community",
-                    "homepage": "https://github.com/dompdf/dompdf/blob/master/AUTHORS.md"
-                }
-            ],
-            "description": "DOMPDF is a CSS 2.1 compliant HTML to PDF converter",
-            "homepage": "https://github.com/dompdf/dompdf",
-            "support": {
-                "issues": "https://github.com/dompdf/dompdf/issues",
-                "source": "https://github.com/dompdf/dompdf/tree/v2.0.3"
-            },
-            "time": "2023-02-07T12:51:48+00:00"
         },
         {
             "name": "dragonmantank/cron-expression",
@@ -2322,6 +2053,74 @@
                 "source": "https://github.com/kirschbaum-development/eloquent-power-joins/tree/3.2.3"
             },
             "time": "2023-09-04T10:21:44+00:00"
+        },
+        {
+            "name": "lab404/laravel-impersonate",
+            "version": "1.7.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/404labfr/laravel-impersonate.git",
+                "reference": "d8ab69f05daab4117b313e11ca007fbf3199a1ab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/404labfr/laravel-impersonate/zipball/d8ab69f05daab4117b313e11ca007fbf3199a1ab",
+                "reference": "d8ab69f05daab4117b313e11ca007fbf3199a1ab",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^6.0 | ^7.0 | ^8.0 | ^9.0 | ^10.0",
+                "php": "^7.2 | ^8.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.3.3",
+                "orchestra/database": "^4.0 | ^5.0 | ^6.0 | ^7.0 | ^8.0",
+                "orchestra/testbench": "^4.0 | ^5.0 | ^6.0 | ^7.0 | ^8.0",
+                "phpunit/phpunit": "^7.5 | ^8.0 | ^9.0 | ^10.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Lab404\\Impersonate\\ImpersonateServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Lab404\\Impersonate\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marceau Casals",
+                    "email": "marceau@casals.fr"
+                }
+            ],
+            "description": "Laravel Impersonate is a plugin that allows to you to authenticate as your users.",
+            "keywords": [
+                "auth",
+                "impersonate",
+                "impersonation",
+                "laravel",
+                "laravel-package",
+                "laravel-plugin",
+                "package",
+                "plugin",
+                "user"
+            ],
+            "support": {
+                "issues": "https://github.com/404labfr/laravel-impersonate/issues",
+                "source": "https://github.com/404labfr/laravel-impersonate/tree/1.7.4"
+            },
+            "time": "2023-01-25T16:56:05+00:00"
         },
         {
             "name": "laravel/framework",
@@ -3973,270 +3772,6 @@
             "time": "2023-02-08T01:06:31+00:00"
         },
         {
-            "name": "nwidart/laravel-modules",
-            "version": "v10.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nWidart/laravel-modules.git",
-                "reference": "35e514f13cb8ae8dce093e9794785fea27319d81"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nWidart/laravel-modules/zipball/35e514f13cb8ae8dce093e9794785fea27319d81",
-                "reference": "35e514f13cb8ae8dce093e9794785fea27319d81",
-                "shasum": ""
-            },
-            "require": {
-                "ext-json": "*",
-                "php": ">=8.1"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^3.6",
-                "laravel/framework": "^10.0",
-                "mockery/mockery": "^1.5",
-                "orchestra/testbench": "^8.0",
-                "phpstan/phpstan": "^1.4",
-                "phpunit/phpunit": "^10.0",
-                "spatie/phpunit-snapshot-assertions": "^5.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Nwidart\\Modules\\LaravelModulesServiceProvider"
-                    ],
-                    "aliases": {
-                        "Module": "Nwidart\\Modules\\Facades\\Module"
-                    }
-                },
-                "branch-alias": {
-                    "dev-master": "10.0-dev"
-                }
-            },
-            "autoload": {
-                "files": [
-                    "src/helpers.php"
-                ],
-                "psr-4": {
-                    "Nwidart\\Modules\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Nicolas Widart",
-                    "email": "n.widart@gmail.com",
-                    "homepage": "https://nicolaswidart.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Laravel Module management",
-            "keywords": [
-                "laravel",
-                "module",
-                "modules",
-                "nwidart",
-                "rad"
-            ],
-            "support": {
-                "issues": "https://github.com/nWidart/laravel-modules/issues",
-                "source": "https://github.com/nWidart/laravel-modules/tree/v10.0.0"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/nwidart",
-                    "type": "github"
-                }
-            ],
-            "time": "2023-02-16T11:08:15+00:00"
-        },
-        {
-            "name": "openspout/openspout",
-            "version": "v4.17.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/openspout/openspout.git",
-                "reference": "3a058a1c5755f228b2addcb76b46dfcb54173d5e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/openspout/openspout/zipball/3a058a1c5755f228b2addcb76b46dfcb54173d5e",
-                "reference": "3a058a1c5755f228b2addcb76b46dfcb54173d5e",
-                "shasum": ""
-            },
-            "require": {
-                "ext-dom": "*",
-                "ext-fileinfo": "*",
-                "ext-filter": "*",
-                "ext-libxml": "*",
-                "ext-xmlreader": "*",
-                "ext-zip": "*",
-                "php": "~8.1.0 || ~8.2.0"
-            },
-            "require-dev": {
-                "ext-zlib": "*",
-                "friendsofphp/php-cs-fixer": "^3.25.1",
-                "infection/infection": "^0.27",
-                "phpbench/phpbench": "^1.2.14",
-                "phpstan/phpstan": "^1.10.33",
-                "phpstan/phpstan-phpunit": "^1.3.14",
-                "phpstan/phpstan-strict-rules": "^1.5.1",
-                "phpunit/phpunit": "^10.3.3"
-            },
-            "suggest": {
-                "ext-iconv": "To handle non UTF-8 CSV files (if \"php-mbstring\" is not already installed or is too limited)",
-                "ext-mbstring": "To handle non UTF-8 CSV files (if \"iconv\" is not already installed)"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.3.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "OpenSpout\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Adrien Loison",
-                    "email": "adrien@box.com"
-                }
-            ],
-            "description": "PHP Library to read and write spreadsheet files (CSV, XLSX and ODS), in a fast and scalable way",
-            "homepage": "https://github.com/openspout/openspout",
-            "keywords": [
-                "OOXML",
-                "csv",
-                "excel",
-                "memory",
-                "odf",
-                "ods",
-                "office",
-                "open",
-                "php",
-                "read",
-                "scale",
-                "spreadsheet",
-                "stream",
-                "write",
-                "xlsx"
-            ],
-            "support": {
-                "issues": "https://github.com/openspout/openspout/issues",
-                "source": "https://github.com/openspout/openspout/tree/v4.17.0"
-            },
-            "funding": [
-                {
-                    "url": "https://paypal.me/filippotessarotto",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/Slamdunk",
-                    "type": "github"
-                }
-            ],
-            "time": "2023-09-05T06:39:07+00:00"
-        },
-        {
-            "name": "phenx/php-font-lib",
-            "version": "0.5.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/dompdf/php-font-lib.git",
-                "reference": "dd448ad1ce34c63d09baccd05415e361300c35b4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/dompdf/php-font-lib/zipball/dd448ad1ce34c63d09baccd05415e361300c35b4",
-                "reference": "dd448ad1ce34c63d09baccd05415e361300c35b4",
-                "shasum": ""
-            },
-            "require": {
-                "ext-mbstring": "*"
-            },
-            "require-dev": {
-                "symfony/phpunit-bridge": "^3 || ^4 || ^5"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "FontLib\\": "src/FontLib"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Ménager",
-                    "email": "fabien.menager@gmail.com"
-                }
-            ],
-            "description": "A library to read, parse, export and make subsets of different types of font files.",
-            "homepage": "https://github.com/PhenX/php-font-lib",
-            "support": {
-                "issues": "https://github.com/dompdf/php-font-lib/issues",
-                "source": "https://github.com/dompdf/php-font-lib/tree/0.5.4"
-            },
-            "time": "2021-12-17T19:44:54+00:00"
-        },
-        {
-            "name": "phenx/php-svg-lib",
-            "version": "0.5.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/dompdf/php-svg-lib.git",
-                "reference": "76876c6cf3080bcb6f249d7d59705108166a6685"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/dompdf/php-svg-lib/zipball/76876c6cf3080bcb6f249d7d59705108166a6685",
-                "reference": "76876c6cf3080bcb6f249d7d59705108166a6685",
-                "shasum": ""
-            },
-            "require": {
-                "ext-mbstring": "*",
-                "php": "^7.1 || ^8.0",
-                "sabberworm/php-css-parser": "^8.4"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^7.5 || ^8.5 || ^9.5"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Svg\\": "src/Svg"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Ménager",
-                    "email": "fabien.menager@gmail.com"
-                }
-            ],
-            "description": "A library to read, parse and export to PDF SVG files.",
-            "homepage": "https://github.com/PhenX/php-svg-lib",
-            "support": {
-                "issues": "https://github.com/dompdf/php-svg-lib/issues",
-                "source": "https://github.com/dompdf/php-svg-lib/tree/0.5.0"
-            },
-            "time": "2022-09-06T12:16:56+00:00"
-        },
-        {
             "name": "phpoption/phpoption",
             "version": "1.9.1",
             "source": {
@@ -5152,59 +4687,6 @@
             "time": "2023-02-14T16:54:54+00:00"
         },
         {
-            "name": "sabberworm/php-css-parser",
-            "version": "8.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sabberworm/PHP-CSS-Parser.git",
-                "reference": "e41d2140031d533348b2192a83f02d8dd8a71d30"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sabberworm/PHP-CSS-Parser/zipball/e41d2140031d533348b2192a83f02d8dd8a71d30",
-                "reference": "e41d2140031d533348b2192a83f02d8dd8a71d30",
-                "shasum": ""
-            },
-            "require": {
-                "ext-iconv": "*",
-                "php": ">=5.6.20"
-            },
-            "require-dev": {
-                "codacy/coverage": "^1.4",
-                "phpunit/phpunit": "^4.8.36"
-            },
-            "suggest": {
-                "ext-mbstring": "for parsing UTF-8 CSS"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Sabberworm\\CSS\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Raphael Schweikert"
-                }
-            ],
-            "description": "Parser for CSS Files written in PHP",
-            "homepage": "https://www.sabberworm.com/blog/2010/6/10/php-css-parser",
-            "keywords": [
-                "css",
-                "parser",
-                "stylesheet"
-            ],
-            "support": {
-                "issues": "https://github.com/sabberworm/PHP-CSS-Parser/issues",
-                "source": "https://github.com/sabberworm/PHP-CSS-Parser/tree/8.4.0"
-            },
-            "time": "2021-12-11T13:40:54+00:00"
-        },
-        {
             "name": "spatie/color",
             "version": "1.5.3",
             "source": {
@@ -5390,65 +4872,37 @@
             "time": "2023-08-23T09:04:39+00:00"
         },
         {
-            "name": "spatie/simple-excel",
-            "version": "3.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/spatie/simple-excel.git",
-                "reference": "f9afb9deb6973bbe96f30685580dca25207e54ce"
-            },
+            "name": "stechstudio/filament-impersonate",
+            "version": "dev-master",
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/spatie/simple-excel/zipball/f9afb9deb6973bbe96f30685580dca25207e54ce",
-                "reference": "f9afb9deb6973bbe96f30685580dca25207e54ce",
-                "shasum": ""
+                "type": "path",
+                "url": "../filament-impersonate",
+                "reference": "ee92ce42de52561aaf6731390b92846329f58b13"
             },
             "require": {
-                "illuminate/support": "^8.71|^9.0|^10.0",
-                "openspout/openspout": "^4.8",
-                "php": "^8.0"
-            },
-            "require-dev": {
-                "pestphp/pest-plugin-laravel": "^1.3",
-                "phpunit/phpunit": "^9.4",
-                "spatie/pest-plugin-snapshots": "^1.1",
-                "spatie/phpunit-snapshot-assertions": "^4.0",
-                "spatie/temporary-directory": "^1.2"
+                "filament/filament": "^3.0",
+                "lab404/laravel-impersonate": "^1.7"
             },
             "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Spatie\\SimpleExcel\\": "src"
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "STS\\FilamentImpersonate\\FilamentImpersonateServiceProvider"
+                    ]
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload": {
+                "psr-4": {
+                    "STS\\FilamentImpersonate\\": "src/"
+                }
+            },
             "license": [
                 "MIT"
             ],
-            "authors": [
-                {
-                    "name": "Freek Van der Herten",
-                    "email": "freek@spatie.be",
-                    "homepage": "https://spatie.be",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Read and write simple Excel and CSV files",
-            "homepage": "https://github.com/spatie/simple-excel",
-            "keywords": [
-                "simple-excel",
-                "spatie"
-            ],
-            "support": {
-                "source": "https://github.com/spatie/simple-excel/tree/3.2.0"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/spatie",
-                    "type": "github"
-                }
-            ],
-            "time": "2023-03-13T16:33:17+00:00"
+            "description": "A Filament package to impersonate your users.",
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "symfony/console",
@@ -11273,10 +10727,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "alperenersoy/filament-export": 20,
-        "coolsam/modules": 10
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
