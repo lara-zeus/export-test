@@ -9,7 +9,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.1",
-        "alperenersoy/filament-export": "dev-fix-there",
+        "alperenersoy/filament-export": "^3.0",
         "coolsam/modules": "^3.0@beta",
         "filament/filament": "^3.0-stable",
         "guzzlehttp/guzzle": "^7.2",
@@ -71,11 +71,5 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "repositories": [
-        {
-            "type": "github",
-            "url": "https://github.com/lara-zeus/filament-export"
-        }
-    ]
+    "prefer-stable": true
 }
